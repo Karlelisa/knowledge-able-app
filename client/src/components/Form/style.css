@@ -1,0 +1,435 @@
+iframe {
+  border: 5px solid black;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.what-are-lds {
+  padding-bottom: 9rem;
+}
+
+.search-btn {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin-top: 20px;
+  left: 50%;
+}
+
+.search-btn:focus {
+  outline: 0;
+}
+
+.user-search input[type="text"] {
+  width: 70%;
+  border-radius: 30px;
+  border: 2px solid rgb(43, 158, 187);
+  margin: 0;
+  padding: 10px;
+}
+
+.user-search input:hover {
+  border: 2px solid rgb(19, 121, 146);
+}
+
+.user-search input:focus {
+  outline: 0;
+}
+
+.search-form-cards {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  justify-content: space-around;
+  align-content: flex-start;
+  padding-top: 3rem;
+  width: 400%;
+}
+
+.card .btn {
+  margin-right: 12px;
+}
+
+.card .btn:focus {
+  outline: none;
+}
+
+.dsylexia-card {
+  background-image: url("images/dyslexia-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 245px;
+  width: 250px;
+  /* width: 15rem; */
+}
+
+.math-disability-card {
+  background-image: url("images/dyscalculia-math-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 245px;
+  width: 250px;
+}
+
+.writing-disability-card {
+  background-image: url("images/dysgraphia-writing-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 245px;
+  width: 250px;
+}
+
+.auditory-disability-card {
+  background-image: url("images/auditory-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 265px;
+  width: 252px;
+  /* margin-top: 20px; */
+}
+
+.visual-disability-card {
+  background-image: url("images/visual-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 265px;
+  /* margin-top: 20px; */
+}
+
+.adhd-disability-card {
+  background-image: url("images/adhd-card.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 265px;
+  width: 250px;
+  /* margin-top: 20px; */
+}
+
+.disability-card {
+  margin-left: 100px;
+  margin-top: 20px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  /* https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+  transition: transform 0.2s;
+}
+
+.disability-card:hover {
+  filter: brightness(115%);
+  transform: scale(1.05);
+}
+
+.user-search {
+  background: #ffffff;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+
+.coping-container {
+  padding-top: 8rem;
+  padding-bottom: 13rem;
+  /* align-items: center;
+  align-content: center; */
+  /* display: flex; */
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.cope-btn {
+  margin-right: 30px;
+}
+
+.list-group-item {
+  border: 5px solid;
+  background-color: #2e3192;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+/* The Learning To Cope Slider */
+/* Cited: https://github.com/drygiel/csslider/blob/master/examples/themes/csslider.light.css */
+
+.csslider {
+  -moz-perspective: 1300px;
+  -ms-perspective: 1300px;
+  -webkit-perspective: 1300px;
+  perspective: 1300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-bottom: 22px;
+  /* margin-left: 100px; */
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+.csslider > input {
+  display: none;
+}
+.csslider > input:nth-of-type(10):checked ~ ul li:first-of-type {
+  margin-left: -900%;
+}
+.csslider > input:nth-of-type(9):checked ~ ul li:first-of-type {
+  margin-left: -800%;
+}
+.csslider > input:nth-of-type(8):checked ~ ul li:first-of-type {
+  margin-left: -700%;
+}
+.csslider > input:nth-of-type(7):checked ~ ul li:first-of-type {
+  margin-left: -600%;
+}
+.csslider > input:nth-of-type(6):checked ~ ul li:first-of-type {
+  margin-left: -500%;
+}
+.csslider > input:nth-of-type(5):checked ~ ul li:first-of-type {
+  margin-left: -400%;
+}
+.csslider > input:nth-of-type(4):checked ~ ul li:first-of-type {
+  margin-left: -300%;
+}
+.csslider > input:nth-of-type(3):checked ~ ul li:first-of-type {
+  margin-left: -200%;
+}
+.csslider > input:nth-of-type(2):checked ~ ul li:first-of-type {
+  margin-left: -100%;
+}
+.csslider > input:nth-of-type(1):checked ~ ul li:first-of-type {
+  margin-left: 0%;
+}
+.csslider > ul {
+  position: relative;
+  width: 820px;
+  height: 420px;
+  z-index: 1;
+  font-size: 0;
+  line-height: 0;
+  background-color: #2e3192;
+  border: 15px solid #2e3192;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 40px;
+  overflow: hidden;
+  white-space: nowrap;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  align-content: center;
+  align-items: center;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.csslider > ul > li {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 15px;
+  font-size: initial;
+  line-height: normal;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  white-space: normal;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.csslider > ul > li.scrollable {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.csslider > .navigation {
+  position: absolute;
+  bottom: -25px;
+  /* top: -25px; */
+  left: 50%;
+  z-index: 10;
+  margin-bottom: -10px;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.csslider > .navigation > div {
+  margin-left: -100%;
+}
+.csslider > .navigation label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: -10px 10px;
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  background: #3a3a3a;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.csslider > .navigation label:hover:after {
+  opacity: 1;
+}
+.csslider > .navigation label:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -11px;
+  margin-top: -11px;
+  background: #17a2b8;
+  border-radius: 80%;
+  padding: 12px;
+  opacity: 0;
+}
+.csslider > .arrows {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.csslider.inside .navigation {
+  bottom: 10px;
+  margin-bottom: 10px;
+}
+.csslider.inside .navigation label {
+  border: 1px solid #7e7e7e;
+}
+.csslider
+  > input:nth-of-type(1):checked
+  ~ .navigation
+  label:nth-of-type(1):after,
+.csslider
+  > input:nth-of-type(2):checked
+  ~ .navigation
+  label:nth-of-type(2):after,
+.csslider
+  > input:nth-of-type(3):checked
+  ~ .navigation
+  label:nth-of-type(3):after,
+.csslider
+  > input:nth-of-type(4):checked
+  ~ .navigation
+  label:nth-of-type(4):after,
+.csslider
+  > input:nth-of-type(5):checked
+  ~ .navigation
+  label:nth-of-type(5):after,
+.csslider
+  > input:nth-of-type(6):checked
+  ~ .navigation
+  label:nth-of-type(6):after,
+.csslider
+  > input:nth-of-type(7):checked
+  ~ .navigation
+  label:nth-of-type(7):after,
+.csslider
+  > input:nth-of-type(8):checked
+  ~ .navigation
+  label:nth-of-type(8):after,
+.csslider
+  > input:nth-of-type(9):checked
+  ~ .navigation
+  label:nth-of-type(9):after,
+.csslider
+  > input:nth-of-type(10):checked
+  ~ .navigation
+  label:nth-of-type(10):after,
+.csslider
+  > input:nth-of-type(11):checked
+  ~ .navigation
+  label:nth-of-type(11):after {
+  opacity: 1;
+}
+.csslider > .arrows {
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  width: 100%;
+  height: 26px;
+  padding: 0 31px;
+  z-index: 1;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.csslider > .arrows label {
+  display: none;
+  position: absolute;
+  top: -50%;
+  padding: 13px;
+  box-shadow: inset 2px -2px 0 1px #3a3a3a;
+  cursor: pointer;
+  -moz-transition: 0.15s;
+  -o-transition: 0.15s;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+.csslider > .arrows label:hover {
+  box-shadow: inset 3px -3px 0 2px #17a2b8;
+  margin: 0 0px;
+}
+.csslider > .arrows label:before {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  height: 300%;
+  width: 300%;
+}
+.csslider.infinity > input:first-of-type:checked ~ .arrows label:last-of-type,
+.csslider > input:nth-of-type(1):checked ~ .arrows label:nth-of-type(0),
+.csslider > input:nth-of-type(2):checked ~ .arrows label:nth-of-type(1),
+.csslider > input:nth-of-type(3):checked ~ .arrows label:nth-of-type(2),
+.csslider > input:nth-of-type(4):checked ~ .arrows label:nth-of-type(3),
+.csslider > input:nth-of-type(5):checked ~ .arrows label:nth-of-type(4),
+.csslider > input:nth-of-type(6):checked ~ .arrows label:nth-of-type(5),
+.csslider > input:nth-of-type(7):checked ~ .arrows label:nth-of-type(6),
+.csslider > input:nth-of-type(8):checked ~ .arrows label:nth-of-type(7),
+.csslider > input:nth-of-type(9):checked ~ .arrows label:nth-of-type(8),
+.csslider > input:nth-of-type(10):checked ~ .arrows label:nth-of-type(9),
+.csslider > input:nth-of-type(11):checked ~ .arrows label:nth-of-type(10) {
+  display: block;
+  left: 0;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.csslider.infinity > input:last-of-type:checked ~ .arrows label:first-of-type,
+.csslider > input:nth-of-type(1):checked ~ .arrows label:nth-of-type(2),
+.csslider > input:nth-of-type(2):checked ~ .arrows label:nth-of-type(3),
+.csslider > input:nth-of-type(3):checked ~ .arrows label:nth-of-type(4),
+.csslider > input:nth-of-type(4):checked ~ .arrows label:nth-of-type(5),
+.csslider > input:nth-of-type(5):checked ~ .arrows label:nth-of-type(6),
+.csslider > input:nth-of-type(6):checked ~ .arrows label:nth-of-type(7),
+.csslider > input:nth-of-type(7):checked ~ .arrows label:nth-of-type(8),
+.csslider > input:nth-of-type(8):checked ~ .arrows label:nth-of-type(9),
+.csslider > input:nth-of-type(9):checked ~ .arrows label:nth-of-type(10),
+.csslider > input:nth-of-type(10):checked ~ .arrows label:nth-of-type(11),
+.csslider > input:nth-of-type(11):checked ~ .arrows label:nth-of-type(12) {
+  display: block;
+  right: 0;
+  -moz-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  -o-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  transform: rotate(225deg);
+}

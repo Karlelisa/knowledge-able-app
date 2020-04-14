@@ -1,0 +1,25 @@
+/* .footer {
+  min-height: 10px;
+} */
+
+/* .footer {
+  min-height: 100px;
+  background: #E5E5E5;
+  position: fixed;
+ 
+} */
+
+.footer span {
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: #b8b8b8;
+  color: white;
+  position: fixed;
+}
+
+footer a {
+  color: white;
+}

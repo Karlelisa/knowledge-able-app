@@ -1,0 +1,47 @@
+nav {
+  margin-bottom: 70px;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  margin-top: 7px;
+}
+
+.dropdown {
+  color: white;
+  float: right;
+  /* margin-left: 550px; */
+  margin: 5%;
+  padding-right: 40px;
+}
+
+.dropdown input[type="text"] {
+  width: 300px;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.dropdown label {
+  font-weight: bold;
+}
+
+.dictionary-btn {
+  margin-top: 5px;
+}
+
+.dropdown textarea {
+  height: 200px;
+}
+
+.dropdown-menu {
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+/* .logout-link {
+  margin-left: 20px;
+} */
